@@ -3,6 +3,21 @@ import java.util.Arrays;
 
 public class MergeSortedArray {
 
+//     Question 1: Merge Two Sorted Arrays
+//     Input
+//     :
+//      arr1  = [1, 4, 11, 17]
+//       arr2  = [13, 8, 5]
+//      Output
+//     :
+//      [1, 4, 5 ,8 11, 13, 17]
+//      Note
+//          : The arrays could be sorted either in ascending or descending order.Before coding, we had to explain the approach for all four possible cases
+//     :
+//      - Both arrays may be in ascending order
+//      - Both arrays may be in descending order
+//      - First array may be in ascending and second array may be in descending
+//      - First array may be in descending and second array may be in ascending
     public static void main(String[] args) {
         // Condition is 2 arrays that may be sorted in any order like ascending or descending.
 
