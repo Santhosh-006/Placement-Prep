@@ -18,4 +18,4 @@ This repository contains my preparation for software engineering placements. It 
 
 ---
 
-> _"Consistency beats intensity. One problem solved every day is better than solving none."_ 🚀
+> _"Consistency beats intensity. One problem solved every day is better than solving none."_ 
