@@ -1,35 +1,40 @@
 
 public class NumberTriangle {
 
-// 1
-// 2 6
-// 3 7 10
-// 4 8 11 13
-// 5 9 12 14 15
+    // 1
+    // 2 6
+    // 3 7 10
+    // 4 8 11 13
+    // 5 9 12 14 15
     public static void main(String[] args) {
         int n = 5;
-        for (int i = 1; i <= n; i++) {
-            int counter = i;
-            for (int j = 1; j <= i; j++) {
-                System.out.print(counter+ " ");
-                counter = counter + (n - j);
+        // for (int i = 1; i <= n; i++) {
+        //     int counter = i;
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print(counter + " ");
+        //         counter = counter + (n - j);
 
-            }
-            System.out.println("");
-        }
-
+        //     }
+        //     System.out.println("");
+        // }
 
         // reversePattern(5);
+        rightTriangle(n);
     }
 
+    static void reversePattern(int n) {
 
+//            1
+//          6 2          
+//       10 7 3  
+//    13 11 8 4
+// 15 14 12 9 5
 
-
-    static void reversePattern(int n){
+    
         int val = 1;
-        for(int i=0;i<n;i++){
+        for (int i = 0; i < n; i++) {
 
-            for(int k = 0;k<n-i;k++){
+            for (int k = 0; k < n - i; k++) {
                 System.out.print("   ");
             }
 
@@ -37,18 +42,35 @@ public class NumberTriangle {
 
             int step = i;
 
-            for(int j=0;j<=i;j++){
-                System.out.printf("%3d" , counter);
-                counter-=(n-step);
+            for (int j = 0; j <= i; j++) {
+                System.out.printf("%3d", counter);
+                counter -= (n - step);
                 step--;
-                
+
             }
 
             System.out.println("");
-            val+= (n-(i));
+            val += (n - (i));
 
         }
     }
 
-}
+    static void rightTriangle(int n) {
 
+        for (int i = 1; i <= n; i++) {
+            int counter = i;
+            for (int j = 1; j <= n; j++) {
+                if (i + j > n) {
+                    // System.out.print("* ");
+                    System.err.print(counter + " ");
+                    counter = counter + (n - j);
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
+    }
+
+}
