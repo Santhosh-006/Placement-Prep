@@ -4,9 +4,9 @@ This repository contains my preparation for software engineering placements. It 
 
 ## 📂 Contents
 
-- 🧩 Data Structures & Algorithms (DSA)
-- 💻 Coding Practice
-- 🏗️ System Design
+- 🧩 Data Structures & Algorithms (DSA) 
+- 💻 Coding Practice 
+- 🏗️ System Design - taxi, lab, library, railway, flight, parking lot, theatre ticket, hotel
 
 ## 🎯 Goal
 
