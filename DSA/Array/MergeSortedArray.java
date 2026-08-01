@@ -47,9 +47,7 @@ public class MergeSortedArray {
                 a2isAs = true;
             }
         } else {
-            if (a1[0] > a1[1]) {
-                a1isAs = false;
-            }
+            a1isAs = a1[0] < a1[1];
             if (a2[0] > a2[1]) {
                 a2isAs = false;
             }
