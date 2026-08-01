@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/System Design/Cab Booking System/Cab Booking System.iml" filepath="$PROJECT_DIR$/System Design/Cab Booking System/Cab Booking System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/System Design/Lab Booking System/Lab Booking System.iml" filepath="$PROJECT_DIR$/System Design/Lab Booking System/Lab Booking System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Placement-Prep.iml" filepath="$PROJECT_DIR$/.idea/Placement-Prep.iml" />
+    </modules>
+  </component>
+</project>
